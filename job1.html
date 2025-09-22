@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小宠商城</title>
+    <style>
+        body {
+            font-family: 仿宋;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+        }
+        .search-bar input {
+            width: 300px;
+            padding: 5px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #ff6700;
+            padding: 10px;
+        }
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+        }
+        .category-menu {
+            display: flex;
+            justify-content: flex-start;
+            background-color: #fff;
+            padding: 10px;
+        }
+        .category-menu a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+        }
+        .main-image img {
+            width: 100%;
+            height: auto;
+        }
+        .section-title {
+            text-align: center;
+            margin: 20px 0;
+            color: #ff6700;
+        }
+        .products, .hot-products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .product, .hot-product {
+            width: 150px;
+            background-color: #fff;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        .product img, .hot-product img {
+            width: 100%;
+            height: auto;
+            /* 添加一个固定的高度，或者使用 object-fit: cover; 来保持图片比例 */
+            height: 150px;
+            object-fit: cover;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>小宠商城</div>
+        <div class="search-bar">
+            <input type="text" placeholder="搜索商品...">
+        </div>
+    </div>
+    <div class="navbar">
+        <a href="#">首页</a>
+        <a href="#">所有商品</a>
+        <a href="#">狗狗专场</a>
+        <a href="#">猫咪用品</a>
+    </div>
+    <div class="category-menu">
+        <a href="#">狗狗</a>
+        <a href="#">猫咪</a>
+        <a href="#">水族</a>
+        <a href="#">小宠</a>
+    </div>
+    <div class="main-image">
+        <img src="main-image.jpg" alt="主图">
+    </div>
+    <h2 class="section-title">今日特价</h2>
+    <div class="products">
+        <div class="product">
+            <img src="product1.jpg" alt="商品1">
+            <p>商品名称1<br>¥40.00</p>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="商品2">
+            <p>商品名称2<br>¥50.00</p>
+        </div>
+        <!-- 添加更多商品 -->
+    </div>
+    <h2 class="section-title">商城热卖</h2>
+    <div class="hot-products">
+        <div class="hot-product">
+            <img src="hot-product1.jpg" alt="热卖商品1">
+            <p>热卖商品名称1</p>
+        </div>
+        <div class="hot-product">
+            <img src="hot-product2.jpg" alt="热卖商品2">
+            <p>热卖商品名称2</p>
+        </div>
+        <!-- 添加更多热卖商品 -->
+    </div>
+    <div class="footer">
+        <p>我是小宠，开启爱宠生活</p>
+    </div>
+</body>
+</html>
