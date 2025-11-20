@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>原创小说交流会 · Writer’s Salon</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background: linear-gradient(135deg, #f6ede3, #fdf7f1);
+            color: #3b3025;
+            text-align: center;
+        }
+
+        .page {
+            display: inline-block;
+            background-color: #F0E8FF; 
+            box-shadow: 0 0 30px rgba(80, 58, 35, 0.25);
+            text-align: left;
+            max-width: 720px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #5b4636;
+            letter-spacing: 1px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        p#intro {
+            font-size: 140%;
+            font-weight: bold;
+            color: #c8493b; 
+        }
+
+        .intro-text {
+            line-height: 1.7;
+            letter-spacing: 0.5px;
+        }
+
+        .section-title {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            background-color: #fdf4e5;
+            font-size: 90%;
+        }
+
+        th {
+            background-color: #f2ddc2; 
+            font-weight: bold;
+            text-align: left;
+            line-height: 2.2;
+        }
+
+        td {
+            line-height: 2.0;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #fbf0de;
+        }
+
+        table tr:hover {
+            background-color: #eed8be;
+        }
+
+        div table a {
+            font-weight: bold;
+            font-size: 110%;
+            color: #8b3b30; 
+        }
+
+        a:link {
+            color: #b6553b;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #7a7b52;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #e36a4c;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #3c4f9f;
+            text-decoration: underline;
+        }
+
+        a.red:link {
+            color: #e25b3d; 
+        }
+
+        a.red:active {
+            color: #3046a1;
+        }
+
+        a.blue:link {
+            color: #4b7f60; 
+        }
+
+        a.blue:active {
+            color: #a53aa4;
+        }
+
+        p::first-letter {
+            font-size: 180%;
+            color: #c45b3f; 
+        }
+
+        div::first-line {
+            color: #b04832;
+            font-weight: bold;
+        }
+
+        .notice {
+            font-size: 90%;
+            line-height: 1.6;
+        }
+
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, rgba(91,70,54,0), rgba(91,70,54,0.6), rgba(91,70,54,0));
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+
+    <!-- ①顶部标题区：div内含h1主标题 -->
+    <div>
+        <h1 class="center">原创小说交流会 · Writer’s Salon</h1>
+    </div>
+
+    <div class="divider"></div><br>
+
+    <!-- ②活动介绍区：-->
+    <div>
+        <h2 id="intro-title" class="center">创作灵感碰撞，文字梦想同行</h2>
+
+        <p class="intro-text">
+            在这里，每一位创作者都能找到共鸣的灵魂。我们汇聚热爱写作的朋友，分享小说构思、情节打磨、人物塑造的技巧，让孤独的创作之路变得温暖而热闹。无论是初涉文坛的新人，还是深耕多年的写手，都能在交流中汲取力量，突破创作瓶颈。
+        </p>
+
+        <p class="intro-text">
+            活动现场将设置「作品互评」「主题创作挑战」「资深作者分享」等环节，让你在思维的碰撞中激发灵感，在真诚的反馈中完善作品。我们相信，每一个独特的故事都值得被倾听，每一份创作的热情都值得被珍视。
+        </p>
+
+        <!-- 重要提示：p#intro 满足ID选择器要求 -->
+        <p id="intro">
+            重要提示：请参与者提前准备300字左右的作品片段或创作思路，活动现场将有互动分享环节；若携带电子文档，建议保存为PDF格式，现场提供投影设备支持。
+        </p>
+    </div>
+
+    <br><div class="divider"></div><br>
+
+    <!-- ③活动报名信息表格区 -->
+    <div>
+        <h3 class="section-title">创作交流报名名单</h3>
+
+        <table>
+            <tr>
+                <th>编号</th>
+                <th>姓名/笔名</th>
+                <th>作品类型</th> 
+                <th>创作年限</th>
+                <th>联系方式</th>
+                <th>报名状态</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td><a href="mailto:shadowink@example.com">ShadowInk</a></td> 
+                <td>奇幻</td>
+                <td>3年</td>
+                <td>shadowink@example.com</td>
+                <td>已确认席位</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td><a href="tel:138****5678">林晚星</a></td>
+                <td>现实</td>
+                <td>2年</td>
+                <td>138****5678</td>
+                <td>已确认席位</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td><a href="mailto:chenyu@example.com">陈屿</a></td>
+                <td>悬疑</td>
+                <td>4年</td>
+                <td>chenyu@example.com</td>
+                <td>已确认席位</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>苏念</td>
+                <td>言情</td>
+                <td>1年</td>
+                <td>135****9012</td>
+                <td>候补名单</td>
+            </tr>
+        </table>
+    </div>
+
+    <br><div class="divider"></div><br>
+
+    <!-- ④页面链接区 -->
+    <div class="center">
+        <div>
+            <a class="red" href="https://hongchenwusdnu.github.io/bookstore/job4.html">查看往期创作活动照片</a><br><br>
+            <a class="blue" href="job3.html">在线咨询创作交流详情</a>
+        </div>
+    </div>
+
+    <br><div class="divider"></div><br>
+
+    <!-- ⑤底部公告区 -->
+    <div class="notice">
+        活动时间：每周五晚19:00-21:00，地点在学校图书馆三楼研讨室302，无需报名费用，提前10分钟到场即可领取创作主题卡片。<br>
+        福利说明：活动现场提供免费饮用水与文创笔记本，连续参与3次交流可获得「原创小说指导手册」（实体版），由资深作者联合编写。<br>
+        温馨提醒：若需携带原创小说实体书或打印稿分享，可提前告知工作人员（微信：WriterSalon01），我们将预留展示位置；活动期间拍摄的精彩瞬间，若不愿出镜请提前说明。
+    </div>
+
+    <br>
+
+</div>
+
+</body>
+</html>
